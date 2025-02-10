@@ -5,6 +5,8 @@
         "xlocale": "cpp",
         "xutility": "cpp",
         "vector": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "unordered_map": "cpp",
+        "xmemory": "cpp"
     }
 }
