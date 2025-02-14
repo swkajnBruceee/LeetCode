@@ -10,7 +10,7 @@ class Solution {
         bool check(int x, vector<int>& position, int m) 
         {
             int pre = position[0], num = 1;
-            for (int i = 1; i < position.size(); ++i) 
+            for (int i = 1; i < (int)position.size(); ++i) 
             {
                 if (position[i] - pre >= x) 
                 {
@@ -39,5 +39,18 @@ class Solution {
             }
             return distance;
         }
-    };
+};
     
+
+int main()
+{
+    Solution solution;
+    vector<int> position = {1,2,3,4,7};
+    int res = solution.maxDistance(position,3);
+    cout<<res;
+    return 0;
+}
+
+
+
+
